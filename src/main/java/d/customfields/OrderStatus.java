@@ -11,6 +11,8 @@ import lombok.ToString;
 @AllArgsConstructor
 public enum OrderStatus {
 
+    // These arguments are passed directly to the constructor.
+    // Constructors can be overloaded.
     CANCELLED("X"),
     COMPLETED("C"),
     IN_PROGRESS("P"),
